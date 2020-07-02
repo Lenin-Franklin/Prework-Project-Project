@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:200;1,400;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Nunito Sans";
+    font-style: 10px;
+}
+
+nav {
+    background: #edeef0;
+}
+
+.Logo img {
+    height: 30px;
+    width: 30px;
+}
+
+.List1 {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.List1 :hover {
+    text-decoration: underline rgb(0, 0, 0);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 20px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+#HomePage {
+    background: yellow;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+#HomePage div article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#HomePage div article * {
+    padding: 0 5px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
+h3 p {
+    font-size: medium;
+    padding: 100px;
+}
+
+
+
+.Pics {
+    height: 300px;
+}
+
+.l1 {
+
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1em;
+    font-weight: 900;
+    -webkit-text-fill-color: rgb(3, 100, 180);
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    text-shadow: -1px -1px 0 black;
+
+
+}
+
+.l2 {
+    color: gainsboro;
+    background: black;
+    font-family: 'Karla', sans-serif;
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-weight: 100px;
+    border-spacing: 50px;
+    width: 80px;
+
+}
+
+.c1 {
+
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    -webkit-text-fill-color: rgb(7, 237, 245);
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1.2px;
+    text-shadow: black;
+}
+
+.c2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 0.8em;
+    font-weight: 900;
+    -webkit-text-fill-color: orange;
+    -webkit-text-stroke-color: black;
+    text-shadow: -1px -1px 0 black;
+}
+
+.r1 {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+    font-size: 1em;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, violet, purple 50%);
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.r2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    -webkit-text-fill-color: orange;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: -1px -1px 0 black;
+}
+
+#Friends {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.myButton {
+    background-color: #ffffff;
+    border-radius: 50px;
+    border: 1px solid #fcfffe;
+    display: inline-block;
+    cursor: pointer;
+    color: darkslategrey;
+    font-family: Verdana;
+    font-size: 10px;
+    padding: 12px 35px;
+    margin-top: 20px;
+}
+
+.myButton :hover {
+    background-color: white;
+}
+
+.myButton:active {
+    position: relative;
+    top: 3px;
+}
+
+h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+#section {
+    margin: 10px;
+}
+
+#outerlist {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.sublist {
+    color: lightgrey;
+    background: white;
+    margin: 10px 0;
+}
+
+.Language {
+    margin-top: 10px;
+    border-radius: 8%;
+    border-color: rgb(190, 187, 187);
+    font-size: 1em;
+    padding: 5px;
+    color: lightgray;
+    background: white;
+}
+
+#foot {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 20px;
+    width: 100%;
+    list-style: none;
+    padding: 20px;
+
+}
+
+
+.policy {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+}
+
+.policy li {
+    float: left;
+    display: flex;
+
+    text-align: left;
+    padding: 16px;
+    text-decoration: none;
+}
